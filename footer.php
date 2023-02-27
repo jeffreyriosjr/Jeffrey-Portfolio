@@ -12,23 +12,20 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jarj' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'jarj' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'jarj' ), 'jarj', '<a href="http://underscores.me/">JEFFREY a RIOS</a>' );
-				?>
-		</div><!-- .site-info -->
+	<div class="circle container p-0">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+<div class="logo-box">
+<img src="http://jeffrey-alexander-rios-jr.local/wp-content/uploads/2023/02/Beige-Black-Elegant-Aesthetic-Modern-Font-Initials-Logo-1.png" class="logo">
+</div>
+</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
+<?php wp_footer();?>
 
 </body>
 </html>

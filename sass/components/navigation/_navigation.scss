@@ -1,109 +1,74 @@
-.main-navigation {
-	display: block;
+.circle {
+	position: relative;
+	width: 21vh;
+	height: 21vh;
+	background: linear-gradient(#33ccff, #ff0066);
+	border-radius: 50%;
+	animation: animate 0.5s linear infinite;
+	top: 4em;
+}
+
+.logo-box {
+	margin: -1.8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.logo {
+		width: 250px;
+		position: absolute;
+	}
+}
+
+@keyframes animate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+
+}
+
+.circle::after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.circle span {
+	position: absolute;
 	width: 100%;
-
-	ul {
-		display: none;
-		list-style: none;
-		margin: 0;
-		padding-left: 0;
-
-		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-			float: left;
-			position: absolute;
-			top: 100%;
-			left: -999em;
-			z-index: 99999;
-
-			ul {
-				left: -999em;
-				top: 0;
-			}
-
-			li {
-
-				&:hover > ul,
-				&.focus > ul {
-					display: block;
-					left: auto;
-				}
-			}
-
-			a {
-				width: 200px;
-			}
-
-			:hover > a,
-			.focus > a {
-			}
-
-			a:hover,
-			a.focus {
-			}
-		}
-
-		li:hover > ul,
-		li.focus > ul {
-			left: auto;
-		}
-	}
-
-	li {
-		position: relative;
-
-		&:hover > a,
-		&.focus > a {
-		}
-	}
-
-	a {
-		display: block;
-		text-decoration: none;
-	}
-
-	.current_page_item > a,
-	.current-menu-item > a,
-	.current_page_ancestor > a,
-	.current-menu-ancestor > a {
-	}
+	height: 100%;
+	background: linear-gradient(#33ccff, #ff0066);
+	border-radius: 50%;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+.circle span:nth-child(1) {
+	filter: blur(5px);
 }
 
-@media screen and (min-width: 37.5em) {
-
-	.menu-toggle {
-		display: none;
-	}
-
-	.main-navigation ul {
-		display: flex;
-	}
+.circle span:nth-child(2) {
+	filter: blur(10px);
 }
 
-.comment-navigation,
-.posts-navigation,
-.post-navigation {
+.circle span:nth-child(3) {
+	filter: blur(20px);
+}
 
-	.site-main & {
-		margin: 0 0 1.5em;
-	}
+.circle span:nth-child(4) {
+	filter: blur(55px);
+}
 
-	.nav-links {
-		display: flex;
-	}
-
-	.nav-previous {
-		flex: 1 0 50%;
-	}
-
-	.nav-next {
-		text-align: end;
-		flex: 1 0 50%;
+@media (max-width:500px) {
+	.logo {
+		width: 250px !important;
+		position: absolute;
 	}
 }
