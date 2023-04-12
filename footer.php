@@ -11,20 +11,34 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-	<div class="circle container p-0">
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
+<footer class="the-footer">
+  <div class="text-center" style="color: white;font-size: 14px; margin-top: 2em;">
+    <ul class="icon-section">
+      <li class="icon-links">
+        <a href="">
+          <i class="fab fa-facebook"></i></a>
+      </li>
+      <li class="icon-links">
+        <a href="">
+          <i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="icon-links">
+        <a href="">
+          <i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="icon-links">
+        <a href="">
+          <i class="fab fa-linkedin"></i></a>
+      </li>
+      <li class="icon-links">
+        <a href="">
+          <i class="fab fa-google"></i></a>
+      </li>
+    </ul>
+  </div>
+  <!-- Copyright -->
+</footer>
 </div>
-<div class="logo-box">
-<img src="http://jeffrey-alexander-rios-jr.local/wp-content/uploads/2023/02/Beige-Black-Elegant-Aesthetic-Modern-Font-Initials-Logo-1.png" class="logo">
-</div>
-</div>
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
 <?php wp_footer();?>
 
 </body>
