@@ -626,6 +626,12 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+.the-header {
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+
 .circle {
 	position: relative;
 	width: 21vh;
@@ -633,7 +639,8 @@ textarea {
 	background: linear-gradient(#33ccff, #ff0066);
 	border-radius: 50%;
 	animation: animate 0.5s linear infinite;
-	top: 3em;
+	top: 3.65em;
+	z-index: -3;
 }
 
 .logo-box {
