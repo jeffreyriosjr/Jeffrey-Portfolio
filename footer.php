@@ -11,16 +11,17 @@
 
 ?>
 
-<footer class="the-footer">
-  <div class="text-center" style="color: white;font-size: 14px; margin-top: 2em;">
+<footer class="the-footer row">
+  <div class="col-sm-3 mb-5 mt-5">
+    <p class="info-stuff text-center m-0">
+      Rios Producitons Est: 2023
+    </p>
+  </div>
+  <div class="text-center col-sm-3 mb-4">
     <ul class="icon-section">
       <li class="icon-links">
         <a href="">
           <i class="fab fa-facebook"></i></a>
-      </li>
-      <li class="icon-links">
-        <a href="">
-          <i class="fab fa-twitter"></i></a>
       </li>
       <li class="icon-links">
         <a href="">
@@ -30,16 +31,14 @@
         <a href="">
           <i class="fab fa-linkedin"></i></a>
       </li>
-      <li class="icon-links">
-        <a href="">
-          <i class="fab fa-google"></i></a>
-      </li>
     </ul>
   </div>
   <!-- Copyright -->
+
 </footer>
 </div>
-<?php wp_footer();?>
+<?php wp_footer(); ?>
 
 </body>
+
 </html>
