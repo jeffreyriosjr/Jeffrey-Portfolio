@@ -1,6 +1,9 @@
 .navigation {
+	margin: 4em 0em -1em;
 	position: relative;
-	background: #fff;
+	
+	background: linear-gradient(0deg, rgb(181, 229, 218) 0%, rgba(229, 168, 24, 0.522) 100%);
+	align-items: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -9,7 +12,10 @@
 
 .navigation ul {
 	display: flex;
-	width: 350px;
+	width: auto !important;
+	align-items: center;
+	justify-content: flex-start;
+	align-content: center;
 }
 
 .navigation ul li {
@@ -35,10 +41,11 @@
 	position: relative;
 	display: block;
 	line-height: 75px;
-	font-size: 1.5em;
+	font-size: 28px !important;
+	font-weight: 500 !important;
 	text-align: center;
 	transition: 0.5s;
-	color: var(--clr);
+	color: black !important;
 }
 
 .navigation ul li.active a .icon {
@@ -59,6 +66,9 @@
 .navigation ul li.active a .text {
 	opacity: 1;
 	transform: translateY(10px);
+	font-family: 'Montserrat' , sans-serif !important;
+	font-size: 14px !important;
+	color: black !important;
 }
 
 .indicator {

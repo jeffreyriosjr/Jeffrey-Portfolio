@@ -16,6 +16,9 @@
     <p class="info-stuff text-center m-0">
       Rios Producitons Est: 2023
     </p>
+    <p class="info-stuff text-center m-0">
+      Contact me here
+    </p>
   </div>
   <div class="text-center col-sm-3 mb-4">
     <ul class="icon-section">

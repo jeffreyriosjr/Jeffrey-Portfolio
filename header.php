@@ -23,8 +23,7 @@
 		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 		crossorigin="anonymous"></script>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 	<link
 		href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Oswald:wght@200&family=Qwitcher+Grypen&display=swap"
 		rel="stylesheet">
@@ -35,14 +34,13 @@
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 
-	<div class="navigation container-fluid mt-4">
+	<div class="navigation container-fluid">
 		<ul class="m-0">
 			<li class="list active">
 				<a href="#">
 					<span class="icon">
-						<ion-icon name="home-outline"></ion-icon>
-					</span>
-					<span class="text">Home</span>
+					<ion-icon name="logo-wordpress"></ion-icon>					</span>
+					<span class="text">WORDPRESS</span>
 				</a>
 			</li>
 			<li class="list">
@@ -69,15 +67,9 @@
 					<span class="text">Photos</span>
 				</a>
 			</li>
-			<li class="list">
-				<a href="#">
-					<span class="icon">
-						<ion-icon name="settings-outline"></ion-icon>
-					</span>
-					<span class="text">Settings</span>
-				</a>
-			</li>
-			<div class="indicator"></div>
+			<div class="indicator">
+
+			</div>
 		</ul>
 	</div>
 
