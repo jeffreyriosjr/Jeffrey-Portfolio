@@ -11,7 +11,7 @@
 
 ?>
 
-<footer class="the-footer row">
+<footer class="the-footer container">
   <div class="col-sm-3 mb-5 mt-5">
     <p class="info-stuff text-center m-0">
       Rios Producitons Est: 2023

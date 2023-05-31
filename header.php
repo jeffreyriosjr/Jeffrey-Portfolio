@@ -35,7 +35,7 @@
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
 
-	<div class="navigation container-fluid">
+	<!-- <div class="navigation container-fluid">
 		<ul class="m-0">
 			<li class="list active">
 				<a href="#">
@@ -72,7 +72,7 @@
 
 			</div>
 		</ul>
-	</div>
+	</div> -->
 
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -786,7 +786,7 @@ textarea {
 	display: flex;
 	justify-content: center;
 	background: #22c1c3;
-	background: linear-gradient(0deg, #22c1c3 0%, rgba(253, 187, 45, 0.777749) 100%);
+	background: linear-gradient(0deg, #186769 0%, rgba(244, 177, 177, 0.652) 100%);
 	align-items: center;
 	flex-direction: column;
 }
