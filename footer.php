@@ -13,12 +13,12 @@
 
 <footer class="the-footer container">
   <div class="col-sm-3 mb-5 mt-5">
-    <p class="info-stuff text-center m-0">
-      Rios Producitons Est: 2023
-    </p>
-    <p class="info-stuff text-center m-0">
+    <h5 class="info-stuff text-center m-1">
+      email: jeffriosjr@gmail.com
+    </h5>
+    <h3 class="info-stuff text-center m-1">
       Contact me here
-    </p>
+    </h3>
   </div>
   <div class="text-center col-sm-3 mb-4">
     <ul class="icon-section">
